@@ -1,0 +1,54 @@
+[0516/194319:FATAL:v8_initializer.cc(171)] Failed to open V8 file 'D:\github\nwjs-v0.14.5-win-x64 - Copy\natives_blob.bin' (reason: -4)
+Backtrace:
+	v8::OutputStream::WriteHeapStatsChunk [0x00007FFC49467AB1+225089]
+	std::vector<v8::CpuProfileDeoptFrame,std::allocator<v8::CpuProfileDeoptFrame> >::operator= [0x00007FFC494140BC+259612]
+	v8::Unlocker::operator= [0x00007FFC4AE06DCF+4123423]
+	v8::Unlocker::operator= [0x00007FFC4AE067DC+4121900]
+	v8::Extension::auto_enable [0x00007FFC493D041C+368972]
+	v8::Extension::auto_enable [0x00007FFC493CED19+363081]
+	ChromeMain [0x00007FFC48F90EB5+133]
+	GetUploadedReportsImpl [0x00007FF724041251+3297]
+	GetUploadedReportsImpl [0x00007FF72404097F+1039]
+	IsSandboxedProcess [0x00007FF7240A4058+228808]
+	BaseThreadInitThunk [0x00007FFC711013D2+34]
+	RtlUserThreadStart [0x00007FFC714554E4+52]
+
+[0516/194319:ERROR:process_info.cc(608)] range at 0xd66223c200000000, size 0x74 fully unreadable
+[0516/194319:ERROR:process_info.cc(608)] range at 0xd66223e200000000, size 0x74 fully unreadable
+[0516/194319:ERROR:process_info.cc(608)] range at 0x0, size 0x74 fully unreadable
+[0516/194324:FATAL:v8_initializer.cc(171)] Failed to open V8 file 'D:\github\nwjs-v0.14.5-win-x64 - Copy\natives_blob.bin' (reason: -4)
+Backtrace:
+	v8::OutputStream::WriteHeapStatsChunk [0x00007FFC49467AB1+225089]
+	std::vector<v8::CpuProfileDeoptFrame,std::allocator<v8::CpuProfileDeoptFrame> >::operator= [0x00007FFC494140BC+259612]
+	v8::Unlocker::operator= [0x00007FFC4AE06DCF+4123423]
+	v8::Unlocker::operator= [0x00007FFC4AE067DC+4121900]
+	v8::Extension::auto_enable [0x00007FFC493D041C+368972]
+	v8::Extension::auto_enable [0x00007FFC493CED19+363081]
+	ChromeMain [0x00007FFC48F90EB5+133]
+	GetUploadedReportsImpl [0x00007FF724041251+3297]
+	GetUploadedReportsImpl [0x00007FF72404097F+1039]
+	IsSandboxedProcess [0x00007FF7240A4058+228808]
+	BaseThreadInitThunk [0x00007FFC711013D2+34]
+	RtlUserThreadStart [0x00007FFC714554E4+52]
+
+[0516/194324:ERROR:process_info.cc(608)] range at 0x25523c200000000, size 0x8a fully unreadable
+[0516/194324:ERROR:process_info.cc(608)] range at 0x25523e200000000, size 0x8a fully unreadable
+[0516/194324:ERROR:process_info.cc(608)] range at 0x0, size 0x8a fully unreadable
+[0516/194326:FATAL:v8_initializer.cc(171)] Failed to open V8 file 'D:\github\nwjs-v0.14.5-win-x64 - Copy\natives_blob.bin' (reason: -4)
+Backtrace:
+	v8::OutputStream::WriteHeapStatsChunk [0x00007FFC49467AB1+225089]
+	std::vector<v8::CpuProfileDeoptFrame,std::allocator<v8::CpuProfileDeoptFrame> >::operator= [0x00007FFC494140BC+259612]
+	v8::Unlocker::operator= [0x00007FFC4AE06DCF+4123423]
+	v8::Unlocker::operator= [0x00007FFC4AE067DC+4121900]
+	v8::Extension::auto_enable [0x00007FFC493D041C+368972]
+	v8::Extension::auto_enable [0x00007FFC493CED19+363081]
+	ChromeMain [0x00007FFC48F90EB5+133]
+	GetUploadedReportsImpl [0x00007FF724041251+3297]
+	GetUploadedReportsImpl [0x00007FF72404097F+1039]
+	IsSandboxedProcess [0x00007FF7240A4058+228808]
+	BaseThreadInitThunk [0x00007FFC711013D2+34]
+	RtlUserThreadStart [0x00007FFC714554E4+52]
+
+[0516/194326:ERROR:process_info.cc(608)] range at 0x171823c200000000, size 0x4b fully unreadable
+[0516/194326:ERROR:process_info.cc(608)] range at 0x171823e200000000, size 0x4b fully unreadable
+[0516/194326:ERROR:process_info.cc(608)] range at 0x0, size 0x4b fully unreadable
